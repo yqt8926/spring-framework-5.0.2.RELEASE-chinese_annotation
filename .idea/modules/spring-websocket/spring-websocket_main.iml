@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":spring-websocket:main" external.linked.project.path="$MODULE_DIR$/../../../spring-websocket" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="org.springframework" external.system.module.type="sourceSet" external.system.module.version="5.0.2.RELEASE" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="2" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xskip-runtime-version-check" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="E:/GIT/vip-20180303/spring-framework-5.0.2.RELEASE-中文注释版/spring-websocket/build/classes/kotlin/main" />
+          <option name="classpath" value="C:/Users/Tom/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-server/9.4.7.v20170914/560ebb2f187c0f61b07b24eb667f669941beff89/websocket-server-9.4.7.v20170914.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-servlet/9.4.7.v20170914/a75e6706b6af7a87bd3edebbddc45e6cb525f321/websocket-servlet-9.4.7.v20170914.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-webapp/9.4.7.v20170914/cb3f5561ad15a750dcb0cfdcc2db6df141df74b2/jetty-webapp-9.4.7.v20170914.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.4.7.v20170914/980023d7ac2504839f89f337de76c345b21808a1/jetty-servlet-9.4.7.v20170914.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.4.7.v20170914/5119551fb6f19c556ea40588ab4c8f11967796ad/jetty-security-9.4.7.v20170914.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.4.7.v20170914/886adb1b347f42698ea5482e600033428ad32afb/jetty-server-9.4.7.v20170914.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.glassfish.tyrus/tyrus-container-servlet/1.13.1/ef9fdb1634f254af002032fd2059e9548d39b975/tyrus-container-servlet-1.13.1.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.glassfish.tyrus/tyrus-server/1.13.1/8a35435414ba4b589f5d43523e4ece5eaf93089d/tyrus-server-1.13.1.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.glassfish.tyrus/tyrus-container-grizzly-client/1.13.1/7b56d6edd127118cc883a92edd8d30221ffe0abb/tyrus-container-grizzly-client-1.13.1.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.glassfish.tyrus/tyrus-client/1.13.1/7e975f40a525ebf6e55d9e8cbc6445b0ee13ab1d/tyrus-client-1.13.1.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.glassfish.tyrus/tyrus-core/1.13.1/c271eacf7a13ef4e7fc661c3952dcba176e3436e/tyrus-core-1.13.1.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.glassfish.tyrus/tyrus-spi/1.13.1/d33259bbdfe5914d1fd2bd036b2c4e181ce572e/tyrus-spi-1.13.1.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/javax.websocket/javax.websocket-api/1.1/13b8cb26dfb76ac8c28294b06b4b8419e22e9ea1/javax.websocket-api-1.1.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-websocket/8.5.23/da0141f3ab430aa1eac43bf0ccae07b463b027ff/tomcat-websocket-8.5.23.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-client/9.4.7.v20170914/693b3492e04b78757d88544f321076265909a503/websocket-client-9.4.7.v20170914.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-client/9.4.7.v20170914/b1026e2f37cfaf626b7c42c05ce1ec83cd6609ec/jetty-client-9.4.7.v20170914.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/io.undertow/undertow-websockets-jsr/1.4.21.Final/b6e90e18f2b5d50844e64ef6bf97d4e9761ef97d/undertow-websockets-jsr-1.4.21.Final.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/io.undertow/undertow-servlet/1.4.21.Final/53c3e68e8ebbfb3bbaa338e7d22c09a2969d49e3/undertow-servlet-1.4.21.Final.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.2/1d8d8cb7cf26920ba57fb61fa56da88cc123b21f/jackson-databind-2.9.2.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-util/8.5.23/e6d5e8becd2eda3bcec39bee2fbe10a93590506/tomcat-util-8.5.23.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-juli/8.5.23/98e7f0610b7b2fb8303f11be0210e3f5a56a7d55/tomcat-juli-8.5.23.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-xml/9.4.7.v20170914/203e38c00bba11bcb72b41c8d7a1714df61f31e5/jetty-xml-9.4.7.v20170914.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-common/9.4.7.v20170914/47d18802581af0a1c458f7074a47e6e07ee864a0/websocket-common-9.4.7.v20170914.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.4.7.v20170914/44a0adb69ff6131129df34d43b28e196c8ce0a90/jetty-http-9.4.7.v20170914.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.4.7.v20170914/a51742105ec2665f5ad80c17c784b388cb855329/jetty-io-9.4.7.v20170914.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.4.7.v20170914/771efdf5983c174d6d9c58892108c1c2d018404a/jetty-util-9.4.7.v20170914.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/io.undertow/undertow-core/1.4.21.Final/5b090ee5bc041d1515be2e78687a868424495a73/undertow-core-1.4.21.Final.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0/7c10d545325e3a6e72e06381afe469fd40eb701/jackson-annotations-2.9.0.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.2/aed20e50152a2f19adc1995c8d8f307c7efa414d/jackson-core-2.9.2.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-api/9.4.7.v20170914/aa7717f73a613c338bda18bfa5b7bd8b6917330/websocket-api-9.4.7.v20170914.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.2.1.Final/fedf11b3d4665a434b554a5891fe7f208f029f45/jboss-logging-3.2.1.Final.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.jboss.xnio/xnio-nio/3.3.8.Final/8dafaf230666e526c53e544ab6a9d6ecfcbab4ee/xnio-nio-3.3.8.Final.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.jboss.xnio/xnio-api/3.3.8.Final/7942ba8330c91a12006c912e040d25a77a58c525/xnio-api-3.3.8.Final.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.servlet/jboss-servlet-api_3.1_spec/1.0.0.Final/f87e23319ee434bca087c339ce456916a6ade08b/jboss-servlet-api_3.1_spec-1.0.0.Final.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.annotation/jboss-annotations-api_1.2_spec/1.0.0.Final/6d7ff02a645227876ed550900d32d618b8f0d556/jboss-annotations-api_1.2_spec-1.0.0.Final.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.glassfish.grizzly/grizzly-http-server/2.3.25/57ba5baba3643c27c89aa15fdf3f784de25f27f/grizzly-http-server-2.3.25.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.glassfish.grizzly/grizzly-http/2.3.25/3f2a3756d9382930304e35a2575088eba8cb9ca2/grizzly-http-2.3.25.jar;C:/Users/Tom/.gradle/caches/modules-2/files-2.1/org.glassfish.grizzly/grizzly-framework/2.3.25/fb2ca754df8d4522d3945dbb180478f8f4682ad8/grizzly-framework-2.3.25.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="spring-websocket" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="languageVersion" value="1.1" />
+          <option name="apiVersion" value="1.1" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="coroutinesWarn" value="true" />
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../spring-websocket/build/classes/java/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../spring-websocket/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-websocket/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-websocket/src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-websocket/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.glassfish.grizzly:grizzly-http:2.3.25" level="project" />
+    <orderEntry type="module" module-name="spring-webmvc_main" scope="PROVIDED" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-server:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" name="Gradle: io.undertow:undertow-websockets-jsr:1.4.21.Final" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-util:8.5.23" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-client:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" name="Gradle: org.glassfish.tyrus:tyrus-server:1.13.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-security:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-xml:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" name="Gradle: org.glassfish.tyrus:tyrus-client:1.13.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-servlet:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-common:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-client:9.4.7.v20170914" level="project" />
+    <orderEntry type="module" module-name="spring-messaging_main" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-servlet:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty:jetty-http:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" name="Gradle: io.undertow:undertow-core:1.4.21.Final" level="project" />
+    <orderEntry type="module" module-name="spring-jcl_main" scope="PROVIDED" />
+    <orderEntry type="library" name="Gradle: org.glassfish.tyrus:tyrus-container-grizzly-client:1.13.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty:jetty-io:9.4.7.v20170914" level="project" />
+    <orderEntry type="module" module-name="spring-context_main" />
+    <orderEntry type="library" name="Gradle: io.undertow:undertow-servlet:1.4.21.Final" level="project" />
+    <orderEntry type="module" module-name="spring-webmvc_main" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-webapp:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.xnio:xnio-nio:3.3.8.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.glassfish.tyrus:tyrus-core:1.13.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.glassfish.grizzly:grizzly-http-server:2.3.25" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-websocket:8.5.23" level="project" />
+    <orderEntry type="library" name="Gradle: org.glassfish.tyrus:tyrus-spi:1.13.1" level="project" />
+    <orderEntry type="module" module-name="spring-messaging_main" scope="PROVIDED" />
+    <orderEntry type="library" name="Gradle: org.glassfish.tyrus:tyrus-container-servlet:1.13.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-server:9.4.7.v20170914" level="project" />
+    <orderEntry type="module" module-name="spring-web_main" />
+    <orderEntry type="module" module-name="spring-aop_main" />
+    <orderEntry type="module" module-name="spring-beans_main" />
+    <orderEntry type="module" module-name="spring-expression_main" />
+    <orderEntry type="module" module-name="spring-core_main" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../spring-core/build/libs/spring-cglib-repack-3.2.5.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../spring-core/build/libs/spring-objenesis-repack-2.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="spring-jcl_main" />
+    <orderEntry type="library" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: javax.websocket:javax.websocket-api:1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-juli:8.5.23" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-util:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-api:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.logging:jboss-logging:3.2.1.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.xnio:xnio-api:3.3.8.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:1.0.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:1.0.0.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.glassfish.grizzly:grizzly-framework:2.3.25" level="project" />
+  </component>
+</module>
